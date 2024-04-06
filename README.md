@@ -21,3 +21,18 @@ update connect4.js
 update get_next_state  
 update get_valid_moves  
 update check_win  
+
+### MCTS Folder:  
+Connect 4, human play againts MCTS AI  
+MCTS Module code is from:  
+tictactoe_gui/mcts/mcts_module.js  
+
+Code modification from human vs human version:  
+update connect4_module.js, copy the changes in connect4_gui_my_version/mcts/connect4_module.js  
+update connect4.js, copy the changes in connect4_gui_my_version/mcts/connect4.js  
+
+### Why it run faster than connect4_gui_my_version:  
+checkwin function is different   
+smaller valid moves arrary, mine is 42, here is 7   
+
+ 
