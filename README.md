@@ -15,3 +15,9 @@ https://github.com/cwd0075/alphazero_connect4/blob/main/connect4_part1.py
 To run:   
 just run index.html on a local web server  
 I run on Cursor.sh Live Server locally (see Note: Setup javascript development environment on Windows)    
+
+code update:  
+update connect4.js  
+update get_next_state  
+update get_valid_moves  
+update check_win  
