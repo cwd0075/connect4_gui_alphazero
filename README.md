@@ -48,4 +48,8 @@ add get_encoded_state(), softmax(), flatten3DArray()
 https://github.com/cwd0075/tictactoe_gui/blob/main/AlphaMCTS_Onnx/script.js  
 https://github.com/cwd0075/alphazero_connect4/blob/main/onnx_test.js  
 
+### Why we still need to do MCTS search steps at model inference, even we have trained a policy network model?  
+Need to do MCTS search even there is ML model to predict the action probability, as the probability is not always suggesting correct action.  
+We need MCTS search to help us to confirm the correct action to take. The probability in policy model is not totally accurate sometimes.  
+
  
