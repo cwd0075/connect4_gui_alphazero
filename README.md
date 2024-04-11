@@ -35,4 +35,17 @@ update connect4.js, copy the changes in connect4_gui_my_version/mcts/connect4.js
 checkwin function is different   
 smaller valid moves arrary, mine is 42, here is 7   
 
+### AlphaMCTS_Onnx Folder:  
+Connect4, human play against MCTS with AlphaZero ML network in Onnx format  
+
+code update from MCTS Folder  
+
+code modification based on:  
+https://github.com/cwd0075/tictactoe_gui/blob/main/AlphaMCTS_Onnx/mcts_module.js,   
+update the flattenstate to [1, 3, 6, 7], update the session output name to 222 and 228    
+https://github.com/cwd0075/tictactoe_gui/blob/main/AlphaMCTS_Onnx/tictactoe_module.js,   
+add get_encoded_state(), softmax(), flatten3DArray()    
+https://github.com/cwd0075/tictactoe_gui/blob/main/AlphaMCTS_Onnx/script.js  
+https://github.com/cwd0075/alphazero_connect4/blob/main/onnx_test.js  
+
  
