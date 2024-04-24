@@ -52,4 +52,17 @@ https://github.com/cwd0075/alphazero_connect4/blob/main/onnx_test.js
 Need to do MCTS search even there is ML model to predict the action probability, as the probability is not always suggesting correct action.  
 We need MCTS search to help us to confirm the correct action to take. The probability in policy model is not totally accurate sometimes.  
 
+### MCTS_Heuristic Folder:  
+Connect4 MCTS Heuristic following https://github.com/cwd0075/MCTS_Heuristic/  
+
+code update from MCTS Folder  
+
+code modification:  
+only file mcts_module.js, Node class, simulate() function is modified.  
+1.always select winning moves if available (highest priority)  
+2.always block opponent's winning moves if we have no winning move (medium priority)  
+3.otherwise random rollout on valid move (lowest priority)  
+
+
+
  
